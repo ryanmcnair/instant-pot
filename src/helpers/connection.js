@@ -1,10 +1,10 @@
-
-import firebase from 'firebase/app';
-import firebaseConfig from '../apiKeys';
+import firebase from 'firebase/compat/app';
+import firebaseConfig from './apiKeys.json';
+// const firebase = import('firebase/compat/app');
 
 const firebaseApp = () => {
   if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig.firebaseConfig);
   }
 };
 
