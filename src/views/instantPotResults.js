@@ -2,7 +2,7 @@ import React from 'react';
 
 function InstantPotResults() {
   return (
-    <div>instantPotResults</div>
+    <div>Results will come out here</div>
   );
 }
 

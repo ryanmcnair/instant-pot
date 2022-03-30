@@ -2,7 +2,9 @@ import React from 'react';
 
 function InstantPotInput() {
   return (
-    <div>instantPot</div>
+    <>
+      <div>Input stuff will go here</div>
+    </>
   );
 }
 
